@@ -1,0 +1,23 @@
+# Java
+target/
+*.log
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+dist/
+
+# Docker
+.env
+docker/postgres/data/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
