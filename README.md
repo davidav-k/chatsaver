@@ -44,26 +44,18 @@ After launch:
 ---
 
 ## Environment variables (.env)
-
-# Database
 POSTGRESQL_HOST=192.168.1.156
 POSTGRESQL_DATABASE=gptchatsaver_db
 POSTGRESQL_USERNAME=user
 POSTGRESQL_PASSWORD=Password123
 POSTGRESQL_PORT=5432
-
-# Services
 CONFIG_SERVER_URI=http://config-server:8888
 EUREKA_URI=http://eureka-server:8761/eureka
 GATEWAY_PORT=8080
 FRONTEND_PORT=5173
-
-# Spring Boot
 SPRING_PROFILES_ACTIVE=dev
 LOG_LEVEL=INFO
-
-# Proxy to ChatGPT API (via gateway)
-BASE_URL=http://gateway:8080/chatgpt
+BASE_URL=http://gateway:8080/chat
 
 ---
 
@@ -137,25 +129,18 @@ ChatSaver — это система для архивации информаци
 
 ## Переменные окружения (.env)
 
-    # База данных
     POSTGRESQL_HOST=192.168.1.156
     POSTGRESQL_DATABASE=gptchatsaver_db
     POSTGRESQL_USERNAME=user
     POSTGRESQL_PASSWORD=Password123
     POSTGRESQL_PORT=5432
-
-    # Сервисы
     CONFIG_SERVER_URI=http://config-server:8888
     EUREKA_URI=http://eureka-server:8761/eureka
     GATEWAY_PORT=8080
     FRONTEND_PORT=5173
-
-    # Spring Boot
     SPRING_PROFILES_ACTIVE=dev
     LOG_LEVEL=INFO
-
-    # Прокси к API ChatGPT (через gateway)
-    BASE_URL=http://gateway:8080/chatgpt
+    BASE_URL=http://gateway:8080/chat
 
 ---
 
